@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 const { spawn } = require('child_process');
 
-const startNextJSServer = spawn('npm', ['run', 'dev']);
+const startNextJSServer = spawn('npm', ['run', 'blob-viewer-dev', '--port', '3939']);
 
 startNextJSServer.stdout.on('data', (data) => {
   console.log(data.toString());
