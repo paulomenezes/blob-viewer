@@ -36,7 +36,7 @@
     "typescript": "5.2.2"
   },
   "bin": {
-    "blob-viewer": "bin/index.js"
+    "blob-viewer": "index.js"
   },
   "devDependencies": {
     "@types/react-file-icon": "^1.0.1"
